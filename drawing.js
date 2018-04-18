@@ -69,15 +69,15 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 
 
-$.getJSON('countries.geo.json', function(countries){
+$.getJSON('ShadowBuster/countries.geo.json', function(countries){
 
 	var shape = new L.PatternCircle({
 		x: 5,
 		y: 5,
 		radius: 1,
 	    	weight: 2,
-	    	fillColor: 'rgba(204,0,204,1)',
-	    	color: 'rgba(33, 100, 243, .7)',
+	    	fillColor: 'rgba(246, 103, 51, 1)',
+	    	color: 'rgba(82, 45, 128, 1)',
 		fill: true
 	});
 	var pattern = new L.Pattern({width:8, height:8});
