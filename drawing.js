@@ -69,7 +69,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 
 
-$.getJSON('ShadowBuster/countries.geo.json', function(countries){
+$.getJSON('/ShadowBuster/countries.geo.json', function(countries){
 
 	var shape = new L.PatternCircle({
 		x: 5,
