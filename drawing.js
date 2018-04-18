@@ -32,7 +32,9 @@ var layers = []//grayscale];
 
 
 var map = L.map('map', {
-	layers: layers	
+	layers: layers,
+	zoomControl: false,
+	attributionControl: false
 });//.setView([10.97873, 4.45312], 2);
 
 
